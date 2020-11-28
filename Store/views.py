@@ -1,3 +1,7 @@
 from django.shortcuts import render
 
-# Create your views here.
+def show_all_stores():
+    
+
+
+class show_store_flowers():
