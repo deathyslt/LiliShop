@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'LiliShop.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': 'mohi',
+        'NAME': 'mohi2',
         'USER': 'mohi',
         'PASSWORD': '12345678',
         'HOST': 'localhost',

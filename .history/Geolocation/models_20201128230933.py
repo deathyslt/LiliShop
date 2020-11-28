@@ -10,8 +10,4 @@ class Adrress(models.Model):
     plaque = models.IntegerField(null=True, blank=True)
 
     def __str__(self):
-        if self.city:
-            return f'{self.id} - {self.city}'
-        else:
-            return f'{self.id}'
-            
+        return f''
