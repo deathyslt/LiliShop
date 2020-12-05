@@ -8,10 +8,3 @@ class Adrress(models.Model):
     street = models.CharField(max_length=50, null=True, blank=True)
     alley = models.CharField(max_length=50, null=True, blank=True)
     plaque = models.IntegerField(null=True, blank=True)
-
-    def __str__(self):
-        if self.city:
-            return f'{self.id} - {self.city}'
-        else:
-            return f'{self.id}'
-            
